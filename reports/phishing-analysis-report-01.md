@@ -1,7 +1,7 @@
 # Phishing Email Analysis Report #01
 
 **Analyst:** Ishant
-**Date of Analysis:** [Fill in today's date]
+**Date of Analysis:** [31-July_2026]
 **Sample Source:** malware-traffic-analysis.net (2025-10-06-Japanese-phishing-emails-208-examples)
 **Sample File:** 2025-09-22-Japanese-phishing-email-1800-UTC.eml
 

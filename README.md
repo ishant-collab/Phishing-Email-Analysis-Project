@@ -47,7 +47,6 @@ Each sample is broken down into a structured report covering:
 
 ## About Me
 
-Final-year B.Tech CSE student specializing in cybersecurity, seeking SOC Analyst and SDE internship/fresher opportunities.
+Hello I am Ishant and I am a final-year B.Tech CSE student Seeking Opurtunities for CyberSecurity domain , seeking SOC Analyst and SDE internship/fresher opportunities.
 
 ---
-*This project is for educational and portfolio purposes only. All samples were sourced from a public security research repository and analyzed in an isolated environment.*

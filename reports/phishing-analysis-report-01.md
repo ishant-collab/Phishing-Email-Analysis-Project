@@ -1,7 +1,8 @@
+[phishing-analysis-report-01 (1).md](https://github.com/user-attachments/files/30563788/phishing-analysis-report-01.1.md)
 # Phishing Email Analysis Report #01
 
 **Analyst:** Ishant
-**Date of Analysis:** [31-July_2026]
+**Date of Analysis:** [Fill in today's date]
 **Sample Source:** malware-traffic-analysis.net (2025-10-06-Japanese-phishing-emails-208-examples)
 **Sample File:** 2025-09-22-Japanese-phishing-email-1800-UTC.eml
 
@@ -85,6 +86,20 @@ The email also contains a 1x1 invisible tracking image (`width=1 height=1`), com
 2. The site's Web Application Firewall (WAF) actively blocked VirusTotal's scanner (`403 blocked-waf`), preventing automated tools from fully inspecting the page. This is a known evasion technique used by phishing infrastructure to avoid detection by security crawlers while still serving the malicious page to real victims.
 
 **A low detection count should never be interpreted as "safe" in isolation** — it must be considered alongside all other indicators (domain mismatch, header anomalies, urgency tactics, WAF blocking behavior).
+
+### Follow-Up Re-Scan (Detection Lag Confirmed)
+
+A follow-up scan of the same URL performed days later showed the detection count rise from **1/98 to 5/92**, with multiple vendors now independently confirming the malicious verdict:
+
+| Vendor | Verdict |
+|---|---|
+| Chong Lua Dao | Malicious |
+| Fortinet | Phishing |
+| Webroot | Malicious |
+| CyRadar | Malicious |
+| Sophos | Malware |
+
+This confirms the earlier hypothesis: the low initial detection count reflected **detection lag**, not actual safety. Threat intelligence databases catch up to newly weaponized domains over time — analysts should treat a low score on a very recent IOC with caution and re-check periodically rather than assuming it is benign.
 
 ---
 

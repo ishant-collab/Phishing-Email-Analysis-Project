@@ -34,7 +34,8 @@ Each sample is broken down into a structured report covering:
 
 | # | Sample | Impersonated Brand | Verdict |
 |---|---|---|---|
-| 01 | [2025-09-22-Japanese-phishing-email-1800-UTC.eml](reports/phishing-analysis-report-01.md) | Yodobashi.com | 🔴 Malicious |
+| 01 | [2025-09-22-Japanese-phishing-email-1800-UTC.eml](reports/phishing-analysis-report-01.md) | ztwenqo.cn | 🔴 Malicious |
+| 02 | [2025-09-22-Japanese-phishing-email-1800-UTC.eml](reports/phishing-analysis-report-01.md) | fumious.umfqrit.cn | 🔴 Malicious |
 
 *(More reports will be added as additional samples are analyzed.)*
 
